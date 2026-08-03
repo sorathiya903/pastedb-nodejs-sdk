@@ -1,0 +1,13 @@
+{
+  "name": "pastedb",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for PasteDB",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "pastedb",
+    "pastebin",
+    "sdk",
+    "api"
+  ]
+}
