@@ -1,13 +1,15 @@
 {
   "name": "pastedb",
   "version": "1.0.0",
-  "description": "Official Node.js SDK for PasteDB",
+  "description": "Official PasteDB Node.js SDK",
   "main": "index.js",
-  "license": "MIT",
   "keywords": [
     "pastedb",
+    "paste",
     "pastebin",
-    "sdk",
-    "api"
-  ]
+    "api",
+    "sdk"
+  ],
+  "license": "MIT",
+  "author": "Aditya Sorathiya"
 }
