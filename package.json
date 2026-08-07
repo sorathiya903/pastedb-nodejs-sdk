@@ -1,5 +1,5 @@
 {
-  "name": "pastedb",
+  "name": "pastedb-js",
   "version": "1.0.3",
   "description": "Official PasteDB Node.js SDK",
   "main": "index.js",
