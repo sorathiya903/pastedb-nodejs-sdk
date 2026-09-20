@@ -33,7 +33,7 @@ const client = new Client("YOUR_API_KEY");
 
 If you're only accessing public endpoints, an API key is optional:
 
-const { Client } = require("pastedb");
+const { Client } = require("pastedb-js");
 
 const client = new Client();
 
