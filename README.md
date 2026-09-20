@@ -21,13 +21,13 @@ Features
 
 Installation
 
-npm install pastedb
+npm install pastedb-js
 
 ---
 
 Getting Started
 
-const { Client } = require("pastedb");
+const { Client } = require("pastedb-js");
 
 const client = new Client("YOUR_API_KEY");
 
