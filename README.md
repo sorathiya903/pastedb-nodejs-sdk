@@ -1,6 +1,6 @@
 # PasteDB JavaScript SDK
 
-Official Node.js SDK for interacting with the [PasteDB](https://pastedb-rw62.onrender.com) API.
+Official Node.js SDK for interacting with the [PasteDB](https://pastedb.netlify.app) API.
 
 Create, retrieve, update, delete, and explore pastes, execute code, manage API keys, retrieve paste statistics, and more — directly from your Node.js application.
 
@@ -84,7 +84,8 @@ GET /api/me
 ```js
 const paste = await client.createPaste({
     title: "My Paste",
-    content: "Hello from PasteDB!"
+    content: "Hello from PasteDB!",
+    images:[]
 });
 ```
 
@@ -117,7 +118,8 @@ GET /p/:pasteId
 ```js
 const updated = await client.updatePaste("paste-id", {
     title: "Updated Title",
-    content: "Updated content"
+    content: "Updated content",
+    images:["url1","url2"]
 });
 ```
 
@@ -377,7 +379,8 @@ async function main() {
         // Create a paste
         const paste = await client.createPaste({
             title: "My First Paste",
-            content: "Hello from pastedb-js!"
+            content: "Hello from pastedb-js!",
+            images:[]
         });
 
         console.log("Created paste:", paste);
