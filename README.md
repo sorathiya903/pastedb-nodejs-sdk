@@ -447,4 +447,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Package
 
-[**pastedb-js**](npmjs.com/package/pastedb-js) — Official PasteDB Node.js SDK.
+[**pastedb-js**](https://npmjs.com/package/pastedb-js) — Official PasteDB Node.js SDK.
